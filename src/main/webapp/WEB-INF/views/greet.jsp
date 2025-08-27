@@ -4,8 +4,9 @@
     <title>Greeting</title>
 </head>
 <body>
-    <h1>반갑습니다!</h1>
-    <p>어서오세요!</p>
+    <h1>반갑습니다! <%= request.getAttribute("username") %> </h1>
+    <p>어서오세요! <%= request.getAttribute("message") %> </p>
+    <%-- 이건 스크립틀릿 주석 --%>
 </body>
 </html>
 

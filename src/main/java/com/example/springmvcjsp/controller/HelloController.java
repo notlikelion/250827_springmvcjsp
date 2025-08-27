@@ -9,6 +9,6 @@ public class HelloController {
     @GetMapping("/greeting")
     public String greet() {
         return "greet";
-        // web-app/WEB-INF/views + {...} + .jsp
+        // web-app/WEB-INF/views/ + {...} + .jsp
     }
 }
